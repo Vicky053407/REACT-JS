@@ -1,10 +1,10 @@
 import React from 'react'
-import CompB from './propchange/CompB'
+import Message from './components/Message'
 
 const App = () => {
   return (
     <div>
-      <CompB />
+      <Message/>
     </div>
   )
 }

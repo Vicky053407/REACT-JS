@@ -5,9 +5,9 @@ class Navbar extends Component {
   render() {
     return (
     <>
-    <div className="navbar navbar-dark bg-dark navbar-expand-lg">
+    <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
         <Link to="#" className='navbar-brand' >React Router Components Example</Link>
-            <div className="ml-auto">
+            <div className='ml-auto'>
             <ul className='navbar-nav'>
                 <li className='nav-list'><Link to="/index" className='nav-link'>Home</Link></li>
                 <li className='nav-list'><Link to="/About" className='nav-link' >About</Link></li>
@@ -16,7 +16,7 @@ class Navbar extends Component {
                 <li className='nav-list'><Link to="/User" className='nav-link' >User</Link></li>
             </ul>
             </div>
-    </div>
+    </nav>
     </>
     )
   }
